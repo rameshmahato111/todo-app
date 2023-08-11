@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+inpute[type='text']{
+    width: 100px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: dodgerblue;
+    color: #ffffff;
+    border: none;
+    padding: 8px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type:none ;
+    padding: 0;
+
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.del-btn{
+    background-color: red;
+    color: #ffffff;
+    padding: 5px 18px;
+    cursor: pointer;
+}
+
+.del-btn:hover{
+    background-color: rgb(84, 4, 4);
+}
